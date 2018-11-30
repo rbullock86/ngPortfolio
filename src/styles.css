@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+.wrapper {
+  display: flex;
+  width: 100%;
+  padding: 5px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 999;
+  background-color: black;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.sidebar a {
+  color: #fff;
+}
+
+.sidebar li {
+  font-size: 24px;
+  line-height: 10vh;
+}
