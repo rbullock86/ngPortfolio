@@ -6,13 +6,17 @@ import { AppComponent } from "./app.component";
 import { ProjectsComponent } from "./projects/projects.component";
 import { LandingComponent } from "./landing/landing.component";
 import { SkillsComponent } from "./skills/skills.component";
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { TopbarComponent } from './topbar/topbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjectsComponent,
     LandingComponent,
-    SkillsComponent
+    SkillsComponent,
+    SidebarComponent,
+    TopbarComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
