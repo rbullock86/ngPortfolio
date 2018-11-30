@@ -1,3 +1,9 @@
-<div class="d-lg-none"><app-topbar></app-topbar></div>
-<div class="d-none d-lg-inline-block"><app-sidebar></app-sidebar></div>
-<div><router-outlet></router-outlet></div>
+<div class="">
+  <div class="d-lg-none"><app-topbar></app-topbar></div>
+  <div class="row">
+    <div class="wrapper d-none d-lg-inline-block col-lg-3">
+      <app-sidebar></app-sidebar>
+    </div>
+    <div class="col-lg-9"><router-outlet></router-outlet></div>
+  </div>
+</div>

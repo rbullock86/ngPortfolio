@@ -1,1 +1,18 @@
-<p>sidebar works!</p>
+<nav class="sidebar nav flex-column navbar navbar-dark bg-dark nav-fill">
+  <div class="nav-item nav flex-column nav-fill" id="navbarContent">
+    <ul class="navbar-nav nav-item nav-item nav-fill">
+      <li class="nav-item">
+        <span class="navbar-brand">Richard Bullock</span>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['landing']">Who Am I</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['skills']">What Do I Know</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['projects']">What Have I Built</a>
+      </li>
+    </ul>
+  </div>
+</nav>
