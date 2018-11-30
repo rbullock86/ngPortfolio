@@ -1,6 +1,27 @@
-<div class="root">
-  <h1>The App Component</h1>
-  <app-arcade></app-arcade>
-</div>
+<div class="wrapper">
+  <!-- Sidebar -->
+  <nav id="sidebar">
+    <div class="sidebar-header"><h3>Richard Bullock</h3></div>
 
+    <ul class="list-unstyled components">
+      <li><a href="#">Who Am I</a></li>
+      <li><a href="#">What Do I Know</a></li>
+      <li><a href="#">What Have I Built</a></li>
+      <li><a href="#">How To Contact</a></li>
+    </ul>
+  </nav>
+  <!-- Page Content -->
+  <div id="content">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button type="button" id="sidebarCollapse" class="btn btn-info">
+          <i class="fas fa-align-left"></i> <span>Toggle Sidebar</span>
+        </button>
+      </div>
+    </nav>
+  </div>
+</div>
+<app-landing> </app-landing>
+<app-projects></app-projects>
+<app-skills> </app-skills>
 <router-outlet></router-outlet>
