@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
+import * as $ from "jquery";
 
 @Component({
-  selector: 'app-topbar',
-  templateUrl: './topbar.component.html',
-  styleUrls: ['./topbar.component.css']
+  selector: "app-topbar",
+  templateUrl: "./topbar.component.html",
+  styleUrls: ["./topbar.component.css"]
 })
 export class TopbarComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  ngOnInit() {}
 
-  ngOnInit() {
+  showNavbarContent() {
+    $("#navbarContent").toggle();
   }
-
 }
